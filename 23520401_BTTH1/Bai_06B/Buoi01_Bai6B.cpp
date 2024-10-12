@@ -24,9 +24,8 @@ bool KiemTraHoTen(string HoTen){
     return true;
 }
 
-//Ham kiem tra diem so
-//Dau vao: diem
-//Dau ra: true neu diem hop le, false neu nguoc lai
+//Ham nhap diem mon hoc
+//Dau ra: diem
 float NhapDiemMonHoc(){
     float Diem = -1;
     cin >> Diem;
