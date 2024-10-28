@@ -2,7 +2,7 @@
 #define THI_SINH_H_INCLUDED
 #include <string>
 using namespace std;
-class Thong_Tin_Thi_Sinh
+class Diem
 {
     private:
         int iNgay, iThang, iNam;
