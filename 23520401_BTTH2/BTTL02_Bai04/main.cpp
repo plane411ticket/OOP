@@ -16,7 +16,7 @@ int main()
         cin >>n;
     }
     cout << "-----------------------------------------------------------------------";
-    vector <Thong_Tin_Thi_Sinh> DSThiSinh(n);
+    vector <Diem> DSThiSinh(n);
     for (int i = 0; i < n; i++)
     {
         cout << "\nNhap thong tin thi sinh thu "<<i+1<<":";
