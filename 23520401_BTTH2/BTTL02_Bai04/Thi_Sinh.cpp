@@ -5,7 +5,7 @@ using namespace std;
 //Nhap thong tin cua thi sinh
 //Dau vao: Ten, MSSV, iNgay, iThang, iNam, fToan, fVan, fAnh
 //Dau ra: the  hien cua class Thong_Tin_Thi_Sinh
-void Thong_Tin_Thi_Sinh :: Nhap()
+void Diem :: Nhap()
 {
     cout << "\nNhap ho va ten: ";
     getline(cin, Ten);
@@ -43,7 +43,7 @@ void Thong_Tin_Thi_Sinh :: Nhap()
 //Xuat thong tin cua thi sinh
 //Dau vao: khong co
 //Dau ra: in ra man hinh thong tin cua thi sinh
-void Thong_Tin_Thi_Sinh :: Xuat()
+void Diem :: Xuat()
 {
     cout << "\nHo va ten: " << Ten;
     cout << "\nMSSV: " <<MSSV;
@@ -55,7 +55,7 @@ void Thong_Tin_Thi_Sinh :: Xuat()
 }
 
 //Tinh tong diem cua thi sinh
-void Thong_Tin_Thi_Sinh :: Tong()
+void Diem :: Tong()
 {
     fTong = fToan + fVan + fAnh;
 }
@@ -63,7 +63,7 @@ void Thong_Tin_Thi_Sinh :: Tong()
 //Lay diem ra diem tong cua thi sinh
 //Dau vao: khong co
 //Dau ra: tong diem fToan, fVan, fAnh cua thi sinh
-float Thong_Tin_Thi_Sinh ::getfTong()
+float Diem ::getfTong()
 {
     return fTong;
 }
