@@ -3,13 +3,13 @@
 #include <algorithm>
 using namespace std;
 
-//Phuong thuc thiet lap mac dinh 
+//Phuong thuc khoi tao mac dinh 
 PhanSo::PhanSo()
 {
     Set(0, 1);
 }
 
-//Thiet lap mot the hien cua class phan so voi Tu va Mau
+//Khoi tao mot the hien cua class phan so voi Tu va Mau
 PhanSo::PhanSo(int Tu, int Mau)
 {
     Set(Tu, Mau);
