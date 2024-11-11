@@ -3,25 +3,25 @@
 #include "SoPhuc.h"
 using namespace std;
 
-//Phuong thuc thiet lap mac dinh 
+//Phuong thuc khoi tao mac dinh 
 SoPhuc::SoPhuc()
 {
     Set(0, 0);
 }
 
-//Thiet lap mot the hien cua class so phuc voi thuc va ao kieu int
+//Khoi tao mot the hien cua class so phuc voi thuc va ao kieu int
 SoPhuc::SoPhuc(int thuc, int ao)
 {
     Set(thuc, ao);
 }
 
-//Thiet lap mot the hien cua class so phuc voi thuc va ao kieu double
+//Khoi tao mot the hien cua class so phuc voi thuc va ao kieu double
 SoPhuc::SoPhuc(double thuc, double ao)
 {
     Set(thuc, ao);
 }
 
-//Thiet lap mot the hien cua class so phuc voi thuc va ao mac dinh la 0
+//Khoi tao mot the hien cua class so phuc voi thuc va ao mac dinh la 0
 SoPhuc::SoPhuc(double thuc)
 {
     Set(thuc, 0);
