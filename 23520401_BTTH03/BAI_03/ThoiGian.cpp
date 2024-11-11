@@ -3,13 +3,13 @@
 #include "ThoiGian.h"
 using namespace std;
 
-//Phuong thuc thiet lap mac dinh
+//Phuong thuc khoi tao mac dinh
 ThoiGian::ThoiGian()
 {
     Set(0, 0, 0);
 }
 
-//Phuong thuc thiet lap mot the hien cua class ThoiGian voi Gio, Phut, Giay
+//Phuong thuc khoi tao mot the hien cua class ThoiGian voi Gio, Phut, Giay
 ThoiGian::ThoiGian(int Gio, int Phut, int Giay)
 {
     Set(Gio, Phut, Giay);
